@@ -122,13 +122,23 @@ gap:20px;
 
 
 /* Footer */
-footer{
+.footer{
+    background-color:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
 
-background:#222;
-color:white;
-text-align:center;
-padding:20px;
+.footer img{
+    width:30px;
+    margin:10px;
+    filter:invert(1);   /* makes icons white */
+    transition:0.3s;
+}
 
+.footer img:hover{
+    transform:scale(1.2);
 }
 .certificates{
 padding:40px;
