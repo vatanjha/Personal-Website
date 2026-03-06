@@ -1,0 +1,132 @@
+/* Remove default spacing */
+body{
+margin:0;
+font-family: Arial;
+}
+
+/* Navigation Bar */
+nav{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+background:#333;
+color:white;
+
+padding:15px 40px;
+
+}
+
+/* Logo text */
+.logo{
+
+font-size:24px;
+font-weight:bold;
+
+}
+
+/* Menu */
+nav ul{
+
+list-style:none;
+display:flex;
+gap:25px;
+
+}
+
+/* Menu links */
+nav a{
+
+color:white;
+text-decoration:none;
+
+}
+
+/* Hover effect */
+nav a:hover{
+
+color:orange;
+
+}
+
+
+/* Banner */
+.banner img{
+
+width:100%;
+height:350px;
+object-fit:cover;
+
+}
+
+
+/* About Section */
+.about{
+
+padding:50px;
+background:#f4f4f4;
+
+}
+
+/* About layout */
+.about-container{
+
+display:flex;
+align-items:center;
+gap:40px;
+
+}
+
+/* Profile photo */
+.profile-photo{
+
+width:350px;
+border-radius:10px;
+
+}
+
+/* About text */
+.about p{
+
+font-size:18px;
+line-height:1.6;
+
+}
+
+
+/* Gallery */
+.gallery{
+
+padding:50px;
+text-align:center;
+
+}
+
+/* Gallery grid */
+.gallery-grid{
+
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+
+}
+
+/* Gallery images */
+.gallery img{
+    width: 100%;
+    height: 250px;      /* fixed height for all photos */
+    object-fit: cover;  /* crops image to fit without stretching */
+    border-radius: 8px;
+}
+
+
+/* Footer */
+footer{
+
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+
+}
