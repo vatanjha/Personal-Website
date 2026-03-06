@@ -40,7 +40,7 @@ My website
 <!-- Banner Section -->
 <section class="banner">
 
-<img src="images/banner.jpg">
+<img src="banner.jpg">
 
 </section>
 
